@@ -1,0 +1,58 @@
+/* Full-page container */
+.coming-soon-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background: #e0f3ff;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 10px clamp(1rem, 3vw, 4rem);
+    border-top: 3px solid #67a864;
+    position: relative;
+  }
+  .header-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1800px;
+    margin: auto;
+    padding: 0 clamp(1rem, 5vw, 5rem);
+    position: relative;
+  }
+/* Logo - Fix for corner alignment */
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    max-width: 55px;
+    margin-left: 0;
+  }
+  
+  .header a.logo img {
+    width: 100%;
+    display: block;
+    max-width: 55px;
+  }
+
+/* Main content */
+.main-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.main-content h1 {
+    color: #00843d;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1.2;
+}
